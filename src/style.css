@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    /* font-family: "ltalianno", cursive; */
+  }
+
+body {
+    background-color: rgb(31, 30, 30);
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.new-item-form {
+    /* background-color: aqua; */
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* flex-direction: column; */
+    gap: 0.5rem;
+
+}
+
+.form-row{
+    /* background-color: blue; */
+    height: 80%;
+    width: 80%;
+    line-height: 30px;
+}
+
+h1{
+    /* background-color: #000; */
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    /* background-color: gold; */
+}
+
+.form-input input{
+    width: 80%;
+    height: 5vh;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 10px;
+    outline: none;
+
+}
+
+.btn{
+    width: 80%;
+    height: 5vh;
+    border-radius: 0.5rem;
+    border: none; 
+    cursor: pointer;
+}
+
+h2{
+    width: 80%;
+    text-transform: capitalize;
+}
+
+
+.ul-container{
+    /* background-color: greenyellow; */
+    /* height: 50%; */
+    display: flex;
+    justify-content: center;
+}
+.list{
+    /* background-color: burlywood; */
+    /* height: 10%; */
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    /* list-style: none; */
+    /* line-height: 5%; */
+    gap: 1rem;
+    
+}
+
+.list li{
+    /* background-color: aqua; */
+    width: 80%;
+    height: 6vh;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 5px;
+    /* padding: 10px; */
+
+}
+
+.list li label{
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: row;
+    /* width: 30%; */
+}
+
+label.input :first-child{
+    background-color: #000;
+}
+
+.btn-danger{
+    width: 22%;
+    height: 5vh;
+    border-radius: 0.5rem;
+    border: solid; 
+    color: red;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
